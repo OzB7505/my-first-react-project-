@@ -5,20 +5,19 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello World</h1>
+      <h1>About Ozcan Bal</h1>
+      <h2>About me</h2>
+      <p>"The undertaking of a new action brings new strength."
+          -Richard L. Evans
+      </p>
+      <p>Ozzy</p>
+      <p>Things I like to do</p>
+      
+      <li>Sleep</li>
+      <li>Eat</li> 
+      <li>Play games</li>
+        
     </div>
   );
 }
